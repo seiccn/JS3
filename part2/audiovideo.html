@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Week 11: Audio and Video</title>
+</head><!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Week 11: jPlayer</title>
+</head>
+
+<body>
+
+<h1>My jPlayer Page</h1>
+<p>Here is an example of some video on this web page using jPlayer.</p>
+<video controls witdth ="640" height="480">
+	<source src="assets/video.ogv" type="video/ogg">
+	<source src="assets/video.m4v" type="video/mp4">
+</video>
+
+<audio controls >
+	<a href="assets/audio.mp3"> Download the audio </a>
+	<source src="assets/audio.ogv" type ="audio/ogg">
+	<source src="assets/audio.mp3" type="audio/mpeg">
+	
+</audio>
+
+    <script type="text/javascript">
+    $(document).ready(function(){
+    $("#jquery_jplayer_1").jPlayer({
+    ready: function () {
+    $(this).jPlayer("setMedia", {
+    m4a: "assets/video.m4v",
+    oga: "/media/mysound.ogg"
+    });
+    },
+    swfPath: "/js",
+    supplied: "m4a, oga"
+    });
+    });
+    </script>
+    <div id="jquery_jplayer_1"></div>
+    <div id="jp_container_1">
+    <a href="#" class="jp-play">Play</a>
+    <a href="#" class="jp-pause">Pause</a>
+    </div>
+	
+</body>
+</html>
+
+<body>
+
+<h1>My Audio and Video Page</h1>
+<p>Here is an example of some video on this web page using HTML5 and the video tag.</p>
+
+</body>
+</html>

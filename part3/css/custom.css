@@ -1,0 +1,34 @@
+/* Hi, I'm custom CSS */
+img {
+	width: 100%;
+	max-width: 100%;
+}
+#oranges .ui-grid-a .ui-block-a {
+	width: 74%;
+	padding-right: 1%;
+}
+#oranges .ui-grid-a .ui-block-b {
+	width: 25%;
+}
+
+@media all and (max-width: 720px) {
+	#oranges .ui-grid-a .ui-block-a,
+	#oranges .ui-grid-a .ui-block-b {
+		width: 100%;
+	}
+	.ui-grid-c .ui-block-a,
+	.ui-grid-c .ui-block-b,
+	.ui-grid-c .ui-block-c,
+	.ui-grid-c .ui-block-d {
+		width: 49%;
+		padding-right: 1%;
+	}
+}
+
+
+
+
+
+
+
+

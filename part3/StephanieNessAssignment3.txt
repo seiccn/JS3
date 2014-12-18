@@ -1,0 +1,7 @@
+My week 10 canvas assignment is located at this/these URL(s): ____http://stephanien.siteground.net/assignment3frontend/part1/
+My week 11 video/audio assignment is located at this/these URL(s): ____ http://stephanien.siteground.net/assignment3frontend/part2/
+My week 12-13 jQuery Mobile assignment is located at this/these URL(s): ____ http://stephanien.siteground.net/assignment3frontend/part3/
+Button is located here: index.html
+My two widgets are navbar and popup widget and they are located on these pages: index.html,index.html#showcase,index.html#company
+My custom theme is applied on this page index.html line number 17 
+The jQuery Mobile event(s) I used on my site include: slidedown, turn They are located here: index.html
